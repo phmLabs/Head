@@ -1,0 +1,23 @@
+{
+  "name": "phmlabs/head",
+
+  "description": "Head outputs all http header information for a given website",
+
+  "require": {
+    "php": ">= 5.4.0",
+    "symfony/console": "~2.2",
+    "guzzlehttp/guzzle": "~6.0",
+    "phmlabs/html": "~1.0.0",
+    "phmlabs/crawler": "~1.0.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "whm\\Head\\": "src/"
+    }
+  },
+
+  "bin": [
+    "bin/Headphp"
+  ]
+}
