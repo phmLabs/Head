@@ -1,0 +1,17 @@
+{
+  "directories": ["src", "vendor"],
+  "main": "bin/Head.php",
+  "output": "bin/Head.phar",
+  "chmod": "0755",
+  "stub": true,
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [
+        "Tests",
+        "tests"
+      ],
+      "in": "vendor"
+    }
+  ]
+}
